@@ -1,0 +1,11 @@
+
+
+
+
+train: ../yolov7/dataset/images/train
+val: ../yolov7/dataset/images/val
+test: ../yolov7/dataset/images/test
+
+nc: 2
+
+names: ['Blob', 'Blob+']
