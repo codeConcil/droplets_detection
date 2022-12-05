@@ -5,7 +5,8 @@
 For get quick results you can use our datasets, weights or samples. So, in the beginning, you need download yolov7 implementation[![Yolo](https://img.shields.io/badge/WongKinYiu-yolov7-brightgreen)](https://github.com/WongKinYiu/yolov7).
 
 ## Training
-If you want to train model yourself, use our processed data by link: 
+If you want to train model yourself, use our processed data by link:  <a href="https://drive.google.com/drive/folders/104Orc2h7frr11w__hI5zGlNCHhpYgnnG?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
+
 1. Then you need download **detection** and **train** folders in this repo. 
 2. After that, add all files from detection folder to root yolov7. The file _custom_plots_ needs 
     to be added along the path _yolov7_ -> _utils_.
@@ -16,7 +17,7 @@ If you want to train model yourself, use our processed data by link:
 !python train.py --workers 8 --epochs 1 --device 0 --batch-size 16 --data data/blob.yaml --img 640 360 --cfg cfg/training/yolov7.yaml --weights '' --name blob_test --hyp data/hyp.scratch.custom.yaml
 ```
 ## Detection
-If you want to detect droplets whith your or our weights, you can use our video samples by link
+If you want to detect droplets whith your or our weights, you can use our video samples by link: <a href="https://drive.google.com/drive/folders/16pVv_uIjr1gZ4TzCAb64D3J0CZCiEXLo?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
 1. Then you need download **detection** folder in this repo.
 2. After that, add all files from detection folder to root yolov7. The file _custom_plots_ needs 
     to be added along the path _yolov7_ -> _utils_.
@@ -81,7 +82,7 @@ Second step is labeling the created images in yolo format
 ## Training
 1. In the beginning, you need download yolov7 implementation[![Yolo](https://img.shields.io/badge/WongKinYiu-yolov7-brightgreen)](https://github.com/WongKinYiu/yolov7).
 2. Download **train** folder in this repo. 
-3. You need to prepare the folder hierarchy in the generated dataset. For example, see our data by link
+3. You need to prepare the folder hierarchy in the generated dataset. For example, see our data by link: <a href="https://drive.google.com/drive/folders/104Orc2h7frr11w__hI5zGlNCHhpYgnnG?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
 4. Open the file _blob.yaml_ from **train** folder and change paths to your sets how as in the example in the file
 4. Move _blob.yaml_ in _yolov7_ -> _data_ folder
 5. Now you can start training model. Use this line  in jupyter notebook as an example (Windows):
@@ -93,10 +94,10 @@ Second step is labeling the created images in yolo format
 1. Download **coefficient** folder from this repo.
 2. Open the coefficient project in any IDE (we recommended PyCharm)
 3. Open the _channel_size.py_ script.
-4. Add in the project folder any frame from your sample for detection (you can use our samples by link).
+4. Add in the project folder any frame from your sample for detection (you can use our samples by link: <a href="https://drive.google.com/drive/folders/1c4oT04RmMVdZzgnwagMsZKmGaJl4jRB2?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>).
 
 
-**Example sample**
+**Sample**
 
 
 [![HChp04p.md.jpg](https://iili.io/HChp04p.md.jpg)](https://freeimage.host/i/HChp04p)
@@ -132,7 +133,11 @@ Second step is labeling the created images in yolo format
 ![DetectB](https://media.giphy.com/media/Zx2pj9GPX76Smn1fSL/giphy.gif)
 
 # Links
-
+- Frames from video <a href="https://drive.google.com/drive/folders/1c4oT04RmMVdZzgnwagMsZKmGaJl4jRB2?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
+- Video samples <a href="https://drive.google.com/drive/folders/16pVv_uIjr1gZ4TzCAb64D3J0CZCiEXLo?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
+- Dataset <a href="https://drive.google.com/drive/folders/104Orc2h7frr11w__hI5zGlNCHhpYgnnG?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
+- Generated data <a href="https://drive.google.com/drive/folders/1fiL_nwUzRA6ryYSrHCgxOVQVZJdGT8Ny?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
+- Detection examples <a href="https://drive.google.com/drive/folders/1v1G7n_1RW7yx6OzoBfC3ip4Bxci6BDjI?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
 
 # Citations
 
