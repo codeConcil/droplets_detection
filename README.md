@@ -140,6 +140,6 @@ Second step is labeling the created images in yolo format
 - Detection examples <a href="https://drive.google.com/drive/folders/1v1G7n_1RW7yx6OzoBfC3ip4Bxci6BDjI?usp=sharing"><img src="https://iili.io/HCNp5Wg.th.png" width="32" height="32"></a>
 
 # Citations
-
+- Kartashov, O.O.; Chapek, S.V.; Polyanichenko, D.S.; Belyavsky, G.I.; Alexandrov, A.A.; Butakova, M.A.; Soldatov, A.V. Online Microfluidic Droplets Characterization Using Microscope Data Intelligent Analysis. Big Data Cogn. Comput. 2023, 7, 7. https://doi.org/10.3390/bdcc7010007
 # Acknowledgements
 - https://github.com/WongKinYiu/yolov7
