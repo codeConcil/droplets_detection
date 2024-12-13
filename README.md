@@ -31,7 +31,7 @@ If you want to detect droplets whith your or our weights, you can use our video 
 
 ![Detect](https://media.giphy.com/media/ozVWYbr73cRaDuMjWY/giphy.gif)
 
-If you want to add an image for detection, we recommend you using standart yolo script _detect.py_, becouse our method needs a video for 
+If you want to add an image for detection, we recommend you using standart yolo script _detect.py_, because our method needs a video for 
 calculate dynamic characteristics.
 
 # Step by Step
